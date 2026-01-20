@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MiniShare.py</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h2>MiniShare.py</h2>
+
+  <input type="file" id="fileInput">
+
+  <button onclick="createRoom()">Create Room</button>
+  <button onclick="joinRoom()">Join Room</button>
+
+  <progress id="progress" value="0" max="100"></progress>
+
+  <div class="status" id="status">Idle</div>
+  <div class="speed" id="speed">Speed: 0 MB/s</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
